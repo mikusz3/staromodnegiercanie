@@ -1,0 +1,49 @@
+/* Resetowanie domyślnych styli */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styl głównego tła */
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url('background.png');
+  background-size: cover;
+  color: #fff;
+}
+
+/* Styl nagłówka */
+header {
+  text-align: center;
+  padding: 50px 0;
+}
+
+/* Styl nawigacji */
+nav {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+/* Styl sekcji */
+main {
+  padding: 50px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+/* Styl stopki */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}

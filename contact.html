@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staromodne Giercanie | Kontakt</title>
+  <style>
+    body {
+      background-image: url('background.png');
+      background-size: cover;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 0;
+    }
+
+    nav {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    main {
+      text-align: center;
+      padding: 50px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Staromodne Giercanie" width="480" height="120">
+  </header>
+
+  <nav>
+    <a href=index.html>Home</a>
+    <a href="https://staromodne-giercanie.blogspot.com/">Blog</a>
+    <a href="https://podcasters.spotify.com/pod/show/mikusz-3">Podcast</a>
+    <a href="https://www.youtube.com/@StaromodneGiercanie">YouTube</a>
+    <a href="https://www.facebook.com/staromodnegiercanie/">Facebook</a>
+    <a href="https://staromodne-giercanie.cupsell.pl">Sklep</a>
+    <b>Kontakt</b>
+  </nav>
+
+
+  <h1 align="center">Formularz Kontaktowy</h1>
+
+  <form action="mailto:mikusz3plooppoopa@gmail.com" method="post" enctype="text/plain">
+    <p align="center"><label for="name">Imię<span>*</span>:</label>
+    <input type="text" id="name" name="name" required></p>
+
+    <p align="center"><label for="surname">Nazwisko<span>*</span>:</label>
+    <input type="text" id="surname" name="surname" required></p>
+
+    <p align="center"><label for="email">E-mail<span>*</span>:</label>
+    <input type="email" id="email" name="email" required></p>
+
+    <p align="center"><label for="subject">Temat<span>*</span>:</label>
+    <input type="text" id="subject" name="subject" required></p>
+
+    <p align="center"><label for="message">Treść wiadomości<span>*</span>:</label>
+    <textarea id="message" name="message" rows="6" required></textarea></p>
+
+    <p align="center"><input type="submit" value="Wyślij"></p>
+  </form>
+
+  <footer>
+    &copy; 2023 Staromodne Giercanie | Designed by Michał Żybura
+  </footer>
+
+</body>
+</html>
